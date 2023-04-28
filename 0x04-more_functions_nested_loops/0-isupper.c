@@ -1,20 +1,16 @@
 #include "main.h"
 
 /**
- * main - Prints Holberton as a message.
+ * _isupper  - Check if a letter is upper
+ * @x: The number to be checked
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 for upper letter or 0 for any else
  */
-int main(void)
+int _isupper(int x)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, sz;
-
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	if (x >= 65 && x <= 90)
 	{
-		_putchar(str[count]);
+	return (1);
 	}
-	_putchar('\n');
 	return (0);
 }
