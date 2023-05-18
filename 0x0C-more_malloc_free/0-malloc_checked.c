@@ -1,7 +1,7 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 #include <stdio.h>
-/**
+/*
  * malloc_checked - allocates memory
  * @b: the size to allocate
  *
@@ -15,3 +15,6 @@ if (p == NULL)
 exit(98);
 return (p);
 }
+
+
+
